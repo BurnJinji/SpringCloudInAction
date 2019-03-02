@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.burning8393.cloud</groupId>
-	<artifactId>microservice-simple-provider-user</artifactId>
+	<artifactId>microservice-simple-consumer-movie</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice-simple-provider-user</name>
+	<name>microservice-simple-consumer-movie</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>jar</packaging>
 
@@ -39,7 +39,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -57,7 +56,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<build>
 		<plugins>
 			<plugin>
